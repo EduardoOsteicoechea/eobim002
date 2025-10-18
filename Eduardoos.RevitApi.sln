@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit2026", "Revit2026\Revi
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Revit.Common", "Revit.Common\Revit.Common.shproj", "{BB650BCB-B8D2-4400-AA10-03A8C66B878C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Installation", "Installation\Installation.csproj", "{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,11 +45,23 @@ Global
 		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|x64.Build.0 = Release|Any CPU
 		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|x86.ActiveCfg = Release|Any CPU
 		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|x86.Build.0 = Release|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Debug|x64.Build.0 = Debug|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Debug|x86.Build.0 = Debug|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Release|x64.ActiveCfg = Release|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Release|x64.Build.0 = Release|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Release|x86.ActiveCfg = Release|Any CPU
+		{78FEB8DC-4132-454C-B6E1-223BDD5B35A2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-  GlobalSection(ExtensibilityGlobals) = postSolution
+	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5E386B0-2A19-41C1-B6D5-4F1749D66A43}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

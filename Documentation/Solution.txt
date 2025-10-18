@@ -1,7 +1,9 @@
 dotnet new sln -n Eduardoos.RevitApi;
 
+  ADD REFERENCES TO EXISTING PROJECTS
 dotnet sln add Revit2023/Revit2023.csproj;
 dotnet sln add Revit2026/Revit2026.csproj;
+dotnet sln add Installation/Installation.csproj;
 
   MANUALLY PAST THE SHARED PROJECT
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Revit.Common", "Revit.Common\Revit.Common.shproj", "{BB650BCB-B8D2-4400-AA10-03A8C66B878C}"

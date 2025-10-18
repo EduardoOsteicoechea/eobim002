@@ -1,0 +1,15 @@
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\Installation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\Installation.AssemblyInfoInputs.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\Installation.AssemblyInfo.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\Installation.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\Installation.sourcelink.json
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0\Installation.exe
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0\Installation.deps.json
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0\Installation.runtimeconfig.json
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0\Installation.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0\Installation.pdb
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\Installation.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\refint\Installation.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\Installation.pdb
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\Installation.genruntimeconfig.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0\ref\Installation.dll
