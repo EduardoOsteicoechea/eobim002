@@ -1,0 +1,34 @@
+  CREATE netstandard2.0 PROJECT
+dotnet new classlib -n Revit2023 -f netstandard2.0;
+
+  CONVERT THIS PROJECT TO .NET FRAMEWORK 4.8
+<PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+</PropertyGroup>
+
+  INSTALL REQUIRED PACKAGES
+cd Revit2023;
+Remove-Item -Path "Class1.cs";
+dotnet add package Revit_All_Main_Versions_API_x64 --version 2023.0.0;
+dotnet add package DynamoVisualProgramming.DynamoServices --version 3.6.1.9956;
+dotnet add package Newtonsoft.Json --version 13.0.3;
+
+  ADD REFERENCE TO "Revit.Common" SHARED PROJECT 
+<Import Project="..\Revit.Common\Revit.Common.projitems" Label="Shared" />
+
+  SET THE ROOT NAMESPACE AND ASSEMBLY NAME TO A COMMON NAME WITH
+  THE "Revit2026" AND "Revit.Common" PROJECTS TO ENABLE MULTY-VERSION 
+  TARGETTING WITH A SIMGLE MANIFES (.addin) FILE
+<PropertyGroup>
+  <TargetFramework>net48</TargetFramework>
+  <RootNamespace>Eduardoos.RevitApi</RootNamespace>
+  <AssemblyName>Eduardoos.RevitApi</AssemblyName>
+</PropertyGroup>
+
+  ADD THE USE WPF DIRECTIVE TO ENABLE WPF IN THE COMMON PROJECT
+<PropertyGroup>
+  <TargetFramework>net48</TargetFramework>
+  <RootNamespace>Eduardoos.RevitApi</RootNamespace>
+  <AssemblyName>Eduardoos.RevitApi</AssemblyName>
+  <UseWPF>true</UseWPF>
+</PropertyGroup>

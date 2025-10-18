@@ -1,0 +1,13 @@
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\bin\Release\net8.0-windows7.0\Eduardoos.RevitApi.deps.json
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\bin\Release\net8.0-windows7.0\Eduardoos.RevitApi.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\bin\Release\net8.0-windows7.0\Eduardoos.RevitApi.pdb
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Revit2026.csproj.AssemblyReference.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Revit2026.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Revit2026.AssemblyInfoInputs.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Revit2026.AssemblyInfo.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Revit2026.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Revit2026.sourcelink.json
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Eduardoos.RevitApi.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\refint\Eduardoos.RevitApi.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Eduardoos.RevitApi.pdb
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\ref\Eduardoos.RevitApi.dll
