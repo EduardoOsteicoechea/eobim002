@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit2023", "Revit2023\Revit2023.csproj", "{331C96A8-6793-4CDD-A7C3-673317F50757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit2026", "Revit2026\Revit2026.csproj", "{571EA5B9-838B-40F9-8F14-2C6F46687931}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Revit.Common", "Revit.Common\Revit.Common.shproj", "{BB650BCB-B8D2-4400-AA10-03A8C66B878C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Debug|x64.Build.0 = Debug|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Debug|x86.Build.0 = Debug|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Release|x64.ActiveCfg = Release|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Release|x64.Build.0 = Release|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Release|x86.ActiveCfg = Release|Any CPU
+		{331C96A8-6793-4CDD-A7C3-673317F50757}.Release|x86.Build.0 = Release|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Debug|x64.Build.0 = Debug|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Debug|x86.Build.0 = Debug|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|x64.ActiveCfg = Release|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|x64.Build.0 = Release|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|x86.ActiveCfg = Release|Any CPU
+		{571EA5B9-838B-40F9-8F14-2C6F46687931}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+  GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E386B0-2A19-41C1-B6D5-4F1749D66A43}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Revit.Common\Revit.Common.projitems*{abf435f6-2527-4937-a3f5-3d00b0d7bcd2}*SharedItemsImports = 5
+		Revit.Common\Revit.Common.projitems*{bb650bcb-b8d2-4400-aa10-03a8c66b878c}*SharedItemsImports = 13
+		Revit.Common\Revit.Common.projitems*{ede104d7-8467-4904-88f1-ac2424a7b468}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
