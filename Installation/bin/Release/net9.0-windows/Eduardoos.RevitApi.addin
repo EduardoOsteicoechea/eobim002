@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+<AddIn Type="Application">
+<Name>Eduardoos.RevitApi</Name>
+<Assembly>Eduardoos/Eduardoos.RevitApi.dll</Assembly>
+<AddInId>E9067D3A-A427-4A97-AA41-67F99A8B843B</AddInId>
+<FullClassName>Eduardoos.RevitApi.App</FullClassName>
+<VendorId>Eduardoos</VendorId>
+<VendorDescription>Eduardoos, www.eduardoos.com</VendorDescription>
+</AddIn>
+</RevitAddIns>

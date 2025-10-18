@@ -1,5 +1,0 @@
-  CREATE
-dotnet new console -n Installation -f net9.0;
-
-  BUILD PROJECT
-dotnet build -c Release;
