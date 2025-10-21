@@ -1,0 +1,33 @@
+<UserControl x:Class="Eduardoos.RevitApi.ActivityBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Eduardoos.RevitApi"
+             mc:Ignorable="d"
+             d:DesignHeight="20"
+             d:DesignWidth="300">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <Button
+      Content="Switch"
+      FontSize="8"
+      BorderThickness="0"
+      Background="Green"
+      Foreground="White"
+      Command="{Binding ChangeToHomeViewCommand}"/>
+    <Button
+      Grid.Column="1"
+      Content="Conf"
+      FontSize="8"
+      BorderThickness="0"
+      Background="Blue"
+      Foreground="White"
+      Command="{Binding ChangeToSettingsViewCommand}"/>
+  </Grid>
+</UserControl>

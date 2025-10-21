@@ -18,3 +18,7 @@ EndProject
 		Revit.Common\Revit.Common.projitems*{bb650bcb-b8d2-4400-aa10-03a8c66b878c}*SharedItemsImports = 13
 		Revit.Common\Revit.Common.projitems*{ede104d7-8467-4904-88f1-ac2424a7b468}*SharedItemsImports = 5
 	EndGlobalSection
+
+
+  
+dotnet sln add Desktop/Desktop.csproj;

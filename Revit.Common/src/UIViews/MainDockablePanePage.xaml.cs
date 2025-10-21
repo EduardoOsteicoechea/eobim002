@@ -2,7 +2,7 @@ using System.Windows.Controls;
 
 namespace Eduardoos.RevitApi
 {
-    public partial class MainDockablePanePage : UserControl
+    public partial class MainDockablePanePage : Page
 	{
         public MainDockablePanePage()
         {
