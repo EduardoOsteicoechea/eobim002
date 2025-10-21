@@ -13,6 +13,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)src\Global\GlobalVariables.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UISetup\MainDockablePane.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\uiviewmodels\RelayCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\HomePageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="$(MSBuildThisFileDirectory)src\UIViews\MainDockablePanePage.xaml">
@@ -23,6 +27,28 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)src\UIViews\MainDockablePanePage.xaml.cs">
       <DependentUpon>MainDockablePanePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)src\UIViews\HomePage.xaml">
+      <Subtype>Designer</Subtype>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViews\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)src\UIViews\ContactPage.xaml">
+      <Subtype>Designer</Subtype>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViews\ContactPage.xaml.cs">
+      <DependentUpon>ContactPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

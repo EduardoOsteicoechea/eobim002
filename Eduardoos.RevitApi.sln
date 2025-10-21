@@ -65,8 +65,8 @@ Global
 		SolutionGuid = {C5E386B0-2A19-41C1-B6D5-4F1749D66A43}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Revit.Common\Revit.Common.projitems*{abf435f6-2527-4937-a3f5-3d00b0d7bcd2}*SharedItemsImports = 5
+		Revit.Common\Revit.Common.projitems*{331c96a8-6793-4cdd-a7c3-673317f50757}*SharedItemsImports = 5
+		Revit.Common\Revit.Common.projitems*{571ea5b9-838b-40f9-8f14-2c6f46687931}*SharedItemsImports = 5
 		Revit.Common\Revit.Common.projitems*{bb650bcb-b8d2-4400-aa10-03a8c66b878c}*SharedItemsImports = 13
-		Revit.Common\Revit.Common.projitems*{ede104d7-8467-4904-88f1-ac2424a7b468}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

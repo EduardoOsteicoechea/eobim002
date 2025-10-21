@@ -1,5 +1,3 @@
-
-
 using System.Windows.Controls;
 
 namespace Eduardoos.RevitApi
@@ -9,6 +7,7 @@ namespace Eduardoos.RevitApi
         public MainDockablePanePage()
         {
             InitializeComponent();
+            DataContext = new HomePageViewModel();
         }
     }
 }

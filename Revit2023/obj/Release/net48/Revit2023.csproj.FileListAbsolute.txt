@@ -26,3 +26,8 @@ C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\Main
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\MainDockablePanePage.g.cs
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\Eduardoos.RevitApi_MarkupCompile.cache
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\Eduardoos.RevitApi.g.resources
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\HomePage.baml
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\HomePage.g.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\ContactPage.baml
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\ContactPage.g.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2023\obj\Release\net48\Eduardoos.RevitApi_MarkupCompile.lref
