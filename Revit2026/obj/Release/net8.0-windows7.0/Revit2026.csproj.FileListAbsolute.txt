@@ -11,3 +11,12 @@ C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-win
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\refint\Eduardoos.RevitApi.dll
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Eduardoos.RevitApi.pdb
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\ref\Eduardoos.RevitApi.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\MainDockablePanePage.baml
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\MainDockablePanePage.g.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Eduardoos.RevitApi_MarkupCompile.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Eduardoos.RevitApi.g.resources
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\HomePage.baml
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\HomePage.g.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\ContactPage.baml
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\ContactPage.g.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Eduardoos.RevitApi_MarkupCompile.lref

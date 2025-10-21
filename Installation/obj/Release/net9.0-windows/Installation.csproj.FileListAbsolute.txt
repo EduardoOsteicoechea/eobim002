@@ -1,0 +1,15 @@
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0-windows\Eduardoos.RevitApi.Installation.exe
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0-windows\Eduardoos.RevitApi.Installation.deps.json
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0-windows\Eduardoos.RevitApi.Installation.runtimeconfig.json
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0-windows\Eduardoos.RevitApi.Installation.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\bin\Release\net9.0-windows\Eduardoos.RevitApi.Installation.pdb
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\Installation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\Installation.AssemblyInfoInputs.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\Installation.AssemblyInfo.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\Installation.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\Installation.sourcelink.json
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\Eduardoos.RevitApi.Installation.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\refint\Eduardoos.RevitApi.Installation.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\Eduardoos.RevitApi.Installation.pdb
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\Installation.genruntimeconfig.cache
+C:\Users\eduar\Documents\work\internal\eobim002\Installation\obj\Release\net9.0-windows\ref\Eduardoos.RevitApi.Installation.dll

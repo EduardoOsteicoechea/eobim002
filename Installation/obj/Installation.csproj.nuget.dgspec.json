@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Installation\\Installation.csproj",
-        "projectName": "Installation",
+        "projectName": "Eduardoos.RevitApi.Installation",
         "projectPath": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Installation\\Installation.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Installation\\obj\\",
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net9.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -31,8 +31,8 @@
           "https://nuget.pkg.github.com/Avant-Leap/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
             "projectReferences": {}
           }
         },
@@ -49,8 +49,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "imports": [
             "net461",
             "net462",
