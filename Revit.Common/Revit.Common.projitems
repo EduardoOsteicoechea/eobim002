@@ -10,13 +10,18 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)src\Commands\LaunchMainDockablePane.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\Commands\TestExternalCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\EventAggregator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\Global\GlobalVariables.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UISetup\MainDockablePane.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\App.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)src\uiviewmodels\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\RelayCommand.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\MainViewViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\HomePageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\StatusBarViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\ActivityBarViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\MainTabControlViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="$(MSBuildThisFileDirectory)src\UIViews\MainDockablePanePage.xaml">
@@ -49,6 +54,50 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)src\UIViews\ContactPage.xaml.cs">
       <DependentUpon>ContactPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)src\UIComponents\StatusBar.xaml">
+      <Subtype>Designer</Subtype>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIComponents\StatusBar.xaml.cs">
+      <DependentUpon>StatusBar.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)src\UIComponents\ActivityBar.xaml">
+      <Subtype>Designer</Subtype>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIComponents\ActivityBar.xaml.cs">
+      <DependentUpon>ActivityBar.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)src\UIViews\MainView.xaml">
+      <Subtype>Designer</Subtype>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViews\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)src\UIComponents\MainTabControl.xaml">
+      <Subtype>Designer</Subtype>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIComponents\MainTabControl.xaml.cs">
+      <DependentUpon>MainTabControl.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

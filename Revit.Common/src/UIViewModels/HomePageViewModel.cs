@@ -66,6 +66,31 @@ namespace Eduardoos.RevitApi
             }
         }
 
+        private double _currentTaskProgress { get; set; } = 10;
+        public double CurrentTaskProgress
+		{
+            get => _currentTaskProgress;
+            set 
+            {
+                if (value.Equals(_currentTaskProgress)) 
+                {
+                    return;
+				}
+
+				if (value < 0)
+				{
+					_currentTaskProgress = 0;
+				}
+
+				if (value > 100)
+				{
+					_currentTaskProgress = 100;
+				}
+
+				_currentTaskProgress = value;
+            }
+        }
+
 
 	}
 }

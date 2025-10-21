@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 
-3-1572013335
+7491755424
 
-11330861192
+20-1045841240
 205333422083
-C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIViews\MainDockablePanePage.xaml;C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIViews\HomePage.xaml;C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIViews\ContactPage.xaml;
+C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIViews\MainDockablePanePage.xaml;C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIViews\HomePage.xaml;C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIViews\ContactPage.xaml;C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIComponents\StatusBar.xaml;C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIComponents\ActivityBar.xaml;C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIViews\MainView.xaml;C:\Users\eduar\Documents\work\internal\eobim002\Revit.Common\src\UIComponents\MainTabControl.xaml;
 
 False
 
