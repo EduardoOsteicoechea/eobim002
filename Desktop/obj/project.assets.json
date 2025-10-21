@@ -288,7 +288,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Desktop\\Desktop.csproj",
-      "projectName": "Desktop",
+      "projectName": "Eduardoos.RevitApi",
       "projectPath": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Desktop\\Desktop.csproj",
       "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Desktop\\obj\\",

@@ -7,6 +7,8 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <LangVersion>latest</LangVersion>
+    <AssemblyName>Eduardoos.RevitApi</AssemblyName>
+    <RootNamespace>Eduardoos.RevitApi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

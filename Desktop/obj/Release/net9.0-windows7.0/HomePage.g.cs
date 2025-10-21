@@ -53,7 +53,7 @@ namespace Eduardoos.RevitApi {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Desktop;component/src/uiviews/homepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Eduardoos.RevitApi;component/src/uiviews/homepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Revit.Common\src\UIViews\HomePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

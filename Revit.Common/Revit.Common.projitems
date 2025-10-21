@@ -10,6 +10,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)src\Commands\LaunchMainDockablePane.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\Commands\TestExternalCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\ChangeViewMessage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\EventAggregator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\Global\GlobalVariables.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UISetup\MainDockablePane.cs" />

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Desktop")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Eduardoos.RevitApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+256818a512acf9b278788663ec37fe5f2e6b4c1e")]
-[assembly: System.Reflection.AssemblyProductAttribute("Desktop")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Desktop")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57b7d8d5e84d1783ee34cbfba2675b3c8150c669")]
+[assembly: System.Reflection.AssemblyProductAttribute("Eduardoos.RevitApi")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Eduardoos.RevitApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

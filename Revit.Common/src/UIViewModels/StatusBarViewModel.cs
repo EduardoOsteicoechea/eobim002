@@ -7,13 +7,28 @@ namespace Eduardoos.RevitApi
 {
     public class StatusBarViewModel : INotifyPropertyChanged
     {
+        private EventAggregator _eventAggregator;
+
         public event PropertyChangedEventHandler PropertyChanged;
+
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        private string _messengerStateMessage { get; set; } = "Initial";
+        public StatusBarViewModel() 
+        {
+            _eventAggregator = EventAggregator.Instance;
+            _eventAggregator.Subscribe<ChangeViewMessage>(HandleChangeViewMessage);
+        }
+
+        public void HandleChangeViewMessage(ChangeViewMessage item) 
+        {
+			MessengerStateMessage = item.Message;
+        }
+
+
+		private string _messengerStateMessage { get; set; } = "Initial";
         public string MessengerStateMessage
         {
             get => _messengerStateMessage;
@@ -25,6 +40,7 @@ namespace Eduardoos.RevitApi
                 }
 
                 _messengerStateMessage = value;
+                OnPropertyChanged();
             }
         }
 
@@ -39,8 +55,9 @@ namespace Eduardoos.RevitApi
                     return;
                 }
 
-                _availableActionText = value;
-            }
+                _availableActionText = value; 
+                OnPropertyChanged();
+			}
         }
 
         private double _currentTaskProgress { get; set; } = 10;
@@ -65,7 +82,8 @@ namespace Eduardoos.RevitApi
                 }
 
                 _currentTaskProgress = value;
-            }
+				OnPropertyChanged();
+			}
         }
 
 

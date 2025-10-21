@@ -3,3 +3,7 @@ dotnet new console -n Desktop -f net9.0;
 
   BUILD PROJECT
 dotnet build -c Release;
+
+
+    <AssemblyName>Eduardoos.RevitApi</AssemblyName>
+    <RootNamespace>Eduardoos.RevitApi</RootNamespace>

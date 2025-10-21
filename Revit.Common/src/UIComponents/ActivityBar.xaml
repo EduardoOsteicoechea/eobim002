@@ -20,7 +20,7 @@
       BorderThickness="0"
       Background="Green"
       Foreground="White"
-      Command="{Binding ChangeView}"/>
+      Command="{Binding ChangeToHomeViewCommand}"/>
     <Button
       Grid.Column="1"
       Content="Conf"
@@ -28,6 +28,6 @@
       BorderThickness="0"
       Background="Blue"
       Foreground="White"
-      Command="{Binding ChangeView}"/>
+      Command="{Binding ChangeToSettingsViewCommand}"/>
   </Grid>
 </UserControl>

@@ -6,8 +6,22 @@
       xmlns:local="clr-namespace:Eduardoos.RevitApi"
       mc:Ignorable="d"
       d:DesignHeight="520"
-      d:DesignWidth="320">
-  <TabControl>
+      d:DesignWidth="320"
+	>
 
-  </TabControl>
+	<TabControl
+        BorderThickness="0"
+        ItemsSource="{Binding Tabs}"
+        SelectedItem="{Binding SelectedTab, Mode=OneWay}"
+        >
+		<TabControl.ItemContainerStyle>
+			<Style TargetType="TabItem">
+				<Setter Property="Visibility" Value="Collapsed" />
+			</Style>
+		</TabControl.ItemContainerStyle>
+
+		<!-- The ContentTemplate will automatically use the DataTemplates
+             defined in UserControl.Resources to render the content of the selected tab. -->
+
+	</TabControl>
 </UserControl>
