@@ -29,12 +29,22 @@ namespace Eduardoos.RevitApi
 
 		public void ExecuteChangeToHomeView()
 		{
-			_eventAggregator.Publish(new ChangeViewMessage { TargetViewModelType = typeof(string), Message = "Home" });
+			_eventAggregator.Publish(new ChangeViewMessage 
+				{ 
+					TargetViewModelType = typeof(string), 
+					Message = "Home",
+					StatusBarMessage = "Eduardoos App Home" 
+				});
 		}
 
 		public void ExecuteChangeToSettingsView()
 		{
-			_eventAggregator.Publish(new ChangeViewMessage { TargetViewModelType = typeof(string), Message = "Settings" });
+			_eventAggregator.Publish(new ChangeViewMessage
+			{
+				TargetViewModelType = typeof(string),
+				Message = "Settings",
+				StatusBarMessage = "Configure the application"
+			});
 		}
 	}
 }

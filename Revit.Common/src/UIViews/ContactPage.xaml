@@ -7,14 +7,12 @@
 	mc:Ignorable="d" 
 	d:DesignHeight="300" 
 	d:DesignWidth="200"
-	Background="Blue"
 	>
 	<Grid
 		VerticalAlignment="Center"
 		HorizontalAlignment="Center"
 		>
 		<TextBlock
-			Foreground="White"
 			>Contact</TextBlock>
 	</Grid>
 </UserControl>

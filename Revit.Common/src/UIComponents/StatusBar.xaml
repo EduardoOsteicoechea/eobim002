@@ -5,33 +5,37 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Eduardoos.RevitApi"
              mc:Ignorable="d"
-             d:DesignHeight="20"
+             d:DesignHeight="24"
              d:DesignWidth="300"
 			 >
 	<Grid>
 		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="3*"/>
-			<ColumnDefinition Width="1*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="75"/>
 		</Grid.ColumnDefinitions>
 		<Grid.RowDefinitions>
-			<RowDefinition Height="*" />
 			<RowDefinition Height="2" />
+			<RowDefinition Height="*" />
 		</Grid.RowDefinitions>
 
 		<TextBlock
-          TextAlignment="Center"
-          Text="{Binding MessengerStateMessage}"
+			Grid.Row="1"
+			Background="White"
+			Padding="5 3 0 0"
+			FontSize="11"
+			Text="{Binding MessengerStateMessage}"
 			/>
-		
+
 		<Button
-          Grid.Column="1"
-          FontSize="8"
-          BorderThickness="0"
-          Content="{Binding AvailableActionText}"
+			Grid.Row="1"
+			  Grid.Column="1"
+			  FontSize="11"
+			  BorderThickness="0"
+			  Content="{Binding AvailableActionText}"
 			/>
 
 		<ProgressBar 
-			Grid.Row="1"
+			Grid.Row="0"
 			Grid.ColumnSpan="2"
 			BorderThickness="0"
 			Value="{Binding CurrentTaskProgress}"

@@ -23,9 +23,9 @@ C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-win
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\refint\Eduardoos.RevitApi.dll
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\Eduardoos.RevitApi.pdb
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\ref\Eduardoos.RevitApi.dll
-C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\ActivityBar.g.cs
-C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\ActivityBar.baml
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\MainTabControl.g.cs
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\MainTabControl.baml
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\MainView.g.cs
 C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\MainView.baml
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\AIAssistantPage.g.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Revit2026\obj\Release\net8.0-windows7.0\AIAssistantPage.baml

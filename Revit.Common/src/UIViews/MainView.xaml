@@ -10,20 +10,18 @@
 	d:DesignWidth="320"
 	Background="#fff"
 	>
-	<Grid>
+	<Grid
+		Margin="0
+		">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="*"/>
-			<RowDefinition Height="30"/>
-			<RowDefinition Height="30"/>
+			<RowDefinition Height="24"/>
 		</Grid.RowDefinitions>
 		<local:MainTabControl
 			Grid.Row="0"
 			/>
 		<local:StatusBar
 			Grid.Row="1"
-			/>
-		<local:ActivityBar
-			Grid.Row="2"
 			/>
 	</Grid>
 </UserControl>

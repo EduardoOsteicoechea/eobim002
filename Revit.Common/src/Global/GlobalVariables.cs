@@ -30,11 +30,8 @@ namespace Eduardoos.RevitApi
 		public static DockablePane MainDockablePane { get; set; }
 
 
-		public static string ApplicationName { get; } = "Eduardoos";
+		public static string ApplicationName { get; } = "eduardoos";
 		public static string MainNamespace { get; } = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
-		public static string MainCommandInternalName { get; } = "LaunchMainDockablePane";
-		public static string MainCommandUIName { get; } = "Launch";
-		public static string MainCommandToolTipText { get; } = "Launch The Eduardoos Revit API Assistance toolkit";
 
 	}
 }
