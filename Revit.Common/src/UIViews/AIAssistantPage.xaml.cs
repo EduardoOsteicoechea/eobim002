@@ -2,7 +2,8 @@ using System.Windows.Controls;
 
 namespace Eduardoos.RevitApi
 {
-    public partial class AIAssistantPage : UserControl
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
+	public partial class AIAssistantPage : UserControl
     {
         public AIAssistantPage()
         {

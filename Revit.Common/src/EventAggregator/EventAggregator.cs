@@ -6,6 +6,7 @@ using System.Threading;
 
 namespace Eduardoos.RevitApi
 {
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
 	public sealed class EventAggregator
 	{
 		private static readonly EventAggregator _instance = new EventAggregator();

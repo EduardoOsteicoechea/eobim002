@@ -5,7 +5,8 @@ using System.Windows.Input;
 
 namespace Eduardoos.RevitApi
 {
-    public class HomePageViewModel : INotifyPropertyChanged
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
+	public class HomePageViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged; 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

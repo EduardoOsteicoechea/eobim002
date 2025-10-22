@@ -3,7 +3,8 @@ using System.Windows.Input;
 
 namespace Eduardoos.RevitApi
 {
-	// Boilerplate helper class to implement ICommand
+
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
 	public class RelayCommand : ICommand
 	{
 		private readonly Action _execute;

@@ -8,6 +8,7 @@ using System.Windows.Input;
 
 namespace Eduardoos.RevitApi
 {
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
 	public class MainTabControlViewModel : INotifyPropertyChanged
 	{
 
