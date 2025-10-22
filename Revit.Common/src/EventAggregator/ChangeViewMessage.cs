@@ -11,5 +11,6 @@ namespace Eduardoos.RevitApi
 		public Type TargetViewModelType { get; set; }
 		public string Message { get; set; }
 		public string StatusBarMessage { get; set; }
+		public double StatusBarProgressBarValue { get; set; }
 	}
 }

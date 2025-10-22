@@ -5,13 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:Eduardoos.RevitApi"
              mc:Ignorable="d"
-             d:DesignHeight="25"
+             d:DesignHeight="24"
              d:DesignWidth="300"
 			 >
 	<Grid>
 		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="3*"/>
-			<ColumnDefinition Width="1*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="75"/>
 		</Grid.ColumnDefinitions>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="2" />
@@ -21,16 +21,15 @@
 		<TextBlock
 			Grid.Row="1"
 			Background="White"
-			TextAlignment="Center"
-			Padding="0 2 0 0"
-			FontSize="10"
+			Padding="5 3 0 0"
+			FontSize="11"
 			Text="{Binding MessengerStateMessage}"
 			/>
 
 		<Button
 			Grid.Row="1"
 			  Grid.Column="1"
-			  FontSize="10"
+			  FontSize="11"
 			  BorderThickness="0"
 			  Content="{Binding AvailableActionText}"
 			/>

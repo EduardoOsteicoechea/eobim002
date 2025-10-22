@@ -17,8 +17,9 @@ namespace Eduardoos.RevitApi
 				EventAggregator.Instance.Publish(new ChangeViewMessage
 				{
 					TargetViewModelType = typeof(string),
-					Message = AvailableViewsOptions.Assitant.Key,
-					StatusBarMessage = AvailableViewsOptions.Assitant.Value
+					Message = AvailableViewsOptions.Assistant.ViewName,
+					StatusBarMessage = AvailableViewsOptions.Assistant.ViewMessage,
+					StatusBarProgressBarValue = 60
 				});
 
 				GlobalVariables.MainDockablePane = commandData.Application.GetDockablePane(GlobalVariables.DockablePaneId);

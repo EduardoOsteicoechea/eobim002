@@ -12,6 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)src\Commands\LaunchMainDockablePaneAssistantView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\Commands\LaunchMainDockablePaneHomeView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\Commands\TestExternalCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\TaskExecutionStateMessage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\ChangeViewMessageEnums.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\ChangeViewMessage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\EventAggregator.cs" />

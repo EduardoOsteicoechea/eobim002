@@ -20,15 +20,23 @@ namespace Eduardoos.RevitApi
         {
             _eventAggregator = EventAggregator.Instance;
             _eventAggregator.Subscribe<ChangeViewMessage>(HandleChangeViewMessage);
+            _eventAggregator.Subscribe<TaskExecutionStateMessage>(HandleTaskExecutionStateMessage);
         }
 
         public void HandleChangeViewMessage(ChangeViewMessage item) 
         {
 			MessengerStateMessage = item.StatusBarMessage;
-        }
+            CurrentTaskProgress = item.StatusBarProgressBarValue;
+		}
+
+		public void HandleTaskExecutionStateMessage(TaskExecutionStateMessage item)
+		{
+			MessengerStateMessage = item.StatusMessage;
+			CurrentTaskProgress = item.Progress;
+		}
 
 
-		private string _messengerStateMessage { get; set; } = "Initial";
+		private string _messengerStateMessage { get; set; } = AvailableViewsOptions.Home.ViewMessage;
         public string MessengerStateMessage
         {
             get => _messengerStateMessage;
@@ -85,7 +93,5 @@ namespace Eduardoos.RevitApi
 				OnPropertyChanged();
 			}
         }
-
-
     }
 }

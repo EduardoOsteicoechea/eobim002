@@ -34,9 +34,9 @@ namespace Eduardoos.RevitApi
 		{
 			Tabs = new ObservableCollection<UserControl>
 			{
-				new HomePage(),
-				new AIAssistantPage(),
-				new ContactPage(),
+				AvailableViewsOptions.Home.View,
+				AvailableViewsOptions.Assistant.View,
+				AvailableViewsOptions.Contact.View,
 			};
 
 			SelectedTab = Tabs.FirstOrDefault();
@@ -46,11 +46,11 @@ namespace Eduardoos.RevitApi
 
 		private void HandleChangeViewMessage(ChangeViewMessage item)
 		{
-			if(item.Message.Equals("Home"))
+			if(item.Message.Equals(AvailableViewsOptions.Home.ViewName))
 			{
 				SelectedTab = Tabs[0];
 			}
-			else if (item.Message.Equals("Assistant"))
+			else if (item.Message.Equals(AvailableViewsOptions.Assistant.ViewName))
 			{
 				SelectedTab = Tabs[1];
 			}
