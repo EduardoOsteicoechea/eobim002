@@ -7,6 +7,7 @@ using System.Windows.Controls;
 
 namespace Eduardoos.RevitApi
 {
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
 	public static class AvailableViewsOptions
 	{
 		public static AvailableViewsOption Home { get; } = new AvailableViewsOption("   Home  ", "AI Tools for efficient BIM Management", new HomePage());
@@ -14,6 +15,7 @@ namespace Eduardoos.RevitApi
 		public static AvailableViewsOption Contact { get; } = new AvailableViewsOption(" Contact ", "Let's Talk", new ContactPage());
 	}
 
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
 	public class AvailableViewsOption 
 	{
 		public string ViewName { get; }

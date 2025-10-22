@@ -3,6 +3,7 @@ using Autodesk.Revit.UI;
 
 namespace Eduardoos.RevitApi
 {
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
 	public class MainDockablePaneProvider : IDockablePaneProvider
 	{
 		public void SetupDockablePane(DockablePaneProviderData data)

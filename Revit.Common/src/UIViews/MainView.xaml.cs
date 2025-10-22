@@ -2,7 +2,8 @@ using System.Windows.Controls;
 
 namespace Eduardoos.RevitApi
 {
-    public partial class MainView : UserControl
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
+	public partial class MainView : UserControl
 	{
         public MainView()
         {

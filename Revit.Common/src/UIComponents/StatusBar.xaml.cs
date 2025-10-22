@@ -2,7 +2,8 @@ using System.Windows.Controls;
 
 namespace Eduardoos.RevitApi
 {
-    public partial class StatusBar : UserControl
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
+	public partial class StatusBar : UserControl
     {
         public StatusBar()
         {

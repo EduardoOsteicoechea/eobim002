@@ -5,7 +5,8 @@ using System.Windows.Input;
 
 namespace Eduardoos.RevitApi
 {
-    public class StatusBarViewModel : INotifyPropertyChanged
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
+	public class StatusBarViewModel : INotifyPropertyChanged
     {
         private EventAggregator _eventAggregator;
 

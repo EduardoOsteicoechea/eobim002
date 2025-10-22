@@ -6,6 +6,7 @@ using System.Threading;
 
 namespace Eduardoos.RevitApi
 {
+	[Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
 	public class ChangeViewMessage
 	{
 		public Type TargetViewModelType { get; set; }

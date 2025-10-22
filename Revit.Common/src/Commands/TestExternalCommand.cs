@@ -3,9 +3,6 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.Attributes;
 using System.Windows;
 
-///////////////////////////
-// This decorator comes from the DynamoVisualProgramming.DynamoServices Nuget Package
-///////////////////////////
 [Autodesk.DesignScript.Runtime.IsVisibleInDynamoLibrary(false)]
 [Transaction(TransactionMode.Manual)]
 public class TestExternalCommand : Autodesk.Revit.UI.IExternalCommand
