@@ -24,7 +24,7 @@ namespace Eduardoos.RevitApi
 
         public void HandleChangeViewMessage(ChangeViewMessage item) 
         {
-			MessengerStateMessage = item.Message;
+			MessengerStateMessage = item.StatusBarMessage;
         }
 
 

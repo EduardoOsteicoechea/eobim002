@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eduardoos.RevitApi.Installation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+256818a512acf9b278788663ec37fe5f2e6b4c1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23495aff49fa9fc6a5156fe29c59158bfec2357c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eduardoos.RevitApi.Installation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eduardoos.RevitApi.Installation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

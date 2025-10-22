@@ -8,30 +8,6 @@ using System.Windows.Input;
 
 namespace Eduardoos.RevitApi
 {
-
-
-	public class ChangeTabMessage
-	{
-		public Type TargetViewModelType { get; set; }
-	}
-
-	// A base class for any ViewModel that can be a tab page
-	public abstract class TabViewModelBase : INotifyPropertyChanged
-	{
-		public string Header { get; }
-
-		protected TabViewModelBase(string header)
-		{
-			Header = header;
-		}
-
-		public event PropertyChangedEventHandler PropertyChanged;
-		protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
-		{
-			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-		}
-	}
-
 	public class MainTabControlViewModel : INotifyPropertyChanged
 	{
 
@@ -59,7 +35,8 @@ namespace Eduardoos.RevitApi
 			Tabs = new ObservableCollection<UserControl>
 			{
 				new HomePage(),
-				new ContactPage()
+				new AIAssistantPage(),
+				new ContactPage(),
 			};
 
 			SelectedTab = Tabs.FirstOrDefault();
@@ -73,9 +50,13 @@ namespace Eduardoos.RevitApi
 			{
 				SelectedTab = Tabs[0];
 			}
-			else
+			else if (item.Message.Equals("Assistant"))
 			{
 				SelectedTab = Tabs[1];
+			}
+			else
+			{
+				SelectedTab = Tabs[2];
 			}
 		}
 	}

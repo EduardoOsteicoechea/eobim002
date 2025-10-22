@@ -8,20 +8,23 @@
     <Import_RootNamespace>Common</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)src\Commands\LaunchMainDockablePane.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Commands\LaunchMainDockablePaneContactView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Commands\LaunchMainDockablePaneAssistantView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Commands\LaunchMainDockablePaneHomeView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\Commands\TestExternalCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\ChangeViewMessageEnums.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\ChangeViewMessage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\EventAggregator\EventAggregator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\Global\GlobalVariables.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\UISetup\CreateTabPanelPushButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UISetup\MainDockablePane.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)src\App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\UISetup\App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\RelayCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\MainViewViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\HomePageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\StatusBarViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\ActivityBarViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)src\UIViewModels\MainTabControlViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +61,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)src\UIViews\AIAssistantPage.xaml">
+      <Subtype>Designer</Subtype>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\UIViews\AIAssistantPage.xaml.cs">
+      <DependentUpon>AIAssistantPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Include="$(MSBuildThisFileDirectory)src\UIComponents\StatusBar.xaml">
       <Subtype>Designer</Subtype>
       <Generator>MSBuild:Compile</Generator>
@@ -66,17 +80,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)src\UIComponents\StatusBar.xaml.cs">
       <DependentUpon>StatusBar.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="$(MSBuildThisFileDirectory)src\UIComponents\ActivityBar.xaml">
-      <Subtype>Designer</Subtype>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)src\UIComponents\ActivityBar.xaml.cs">
-      <DependentUpon>ActivityBar.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

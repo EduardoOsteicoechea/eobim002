@@ -23,8 +23,6 @@ C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windo
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\Desktop.genruntimeconfig.cache
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\MainWindow.g.cs
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\MainWindow.baml
-C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\ActivityBar.g.cs
-C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\ActivityBar.baml
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\MainTabControl.g.cs
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\MainTabControl.baml
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\MainView.g.cs
@@ -41,3 +39,5 @@ C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windo
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\refint\Eduardoos.RevitApi.dll
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\Eduardoos.RevitApi.pdb
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\ref\Eduardoos.RevitApi.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\AIAssistantPage.g.cs
+C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\AIAssistantPage.baml

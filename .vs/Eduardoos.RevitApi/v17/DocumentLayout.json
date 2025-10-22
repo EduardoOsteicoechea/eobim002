@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|c:\\users\\eduar\\documents\\work\\internal\\eobim002\\revit.common\\src\\uicomponents\\maintabcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|solutionrelative:revit.common\\src\\uicomponents\\maintabcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{571EA5B9-838B-40F9-8F14-2C6F46687931}|Revit2026\\Revit2026.csproj|c:\\users\\eduar\\documents\\work\\internal\\eobim002\\revit.common\\src\\eventaggregator\\changeviewmessageenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571EA5B9-838B-40F9-8F14-2C6F46687931}|Revit2026\\Revit2026.csproj|solutionrelative:revit.common\\src\\eventaggregator\\changeviewmessageenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|c:\\users\\eduar\\documents\\work\\internal\\eobim002\\revit.common\\src\\uiviewmodels\\maintabcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|solutionrelative:revit.common\\src\\uiviewmodels\\maintabcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|c:\\users\\eduar\\documents\\work\\internal\\eobim002\\revit.common\\src\\commands\\launchmaindockablepanehomeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|solutionrelative:revit.common\\src\\commands\\launchmaindockablepanehomeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|c:\\users\\eduar\\documents\\work\\internal\\eobim002\\revit.common\\src\\uiviewmodels\\activitybarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|solutionrelative:revit.common\\src\\uiviewmodels\\activitybarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|c:\\users\\eduar\\documents\\work\\internal\\eobim002\\revit.common\\src\\commands\\launchmaindockablepanecontactview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|solutionrelative:revit.common\\src\\commands\\launchmaindockablepanecontactview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|c:\\users\\eduar\\documents\\work\\internal\\eobim002\\revit.common\\src\\commands\\launchmaindockablepaneassistantview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB650BCB-B8D2-4400-AA10-03A8C66B878C}|Revit.Common\\Revit.Common.shproj|solutionrelative:revit.common\\src\\commands\\launchmaindockablepaneassistantview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ActivityBarViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\UIViewModels\\ActivityBarViewModel.cs",
-              "RelativeDocumentMoniker": "Revit.Common\\src\\UIViewModels\\ActivityBarViewModel.cs",
-              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\UIViewModels\\ActivityBarViewModel.cs",
-              "RelativeToolTip": "Revit.Common\\src\\UIViewModels\\ActivityBarViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:20:57.641Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainTabControlViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\UIViewModels\\MainTabControlViewModel.cs",
-              "RelativeDocumentMoniker": "Revit.Common\\src\\UIViewModels\\MainTabControlViewModel.cs",
-              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\UIViewModels\\MainTabControlViewModel.cs",
-              "RelativeToolTip": "Revit.Common\\src\\UIViewModels\\MainTabControlViewModel.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwE8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:50:36.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainTabControl.xaml",
-              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\UIComponents\\MainTabControl.xaml",
-              "RelativeDocumentMoniker": "Revit.Common\\src\\UIComponents\\MainTabControl.xaml",
-              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\UIComponents\\MainTabControl.xaml",
-              "RelativeToolTip": "Revit.Common\\src\\UIComponents\\MainTabControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T15:42:37.408Z",
+              "Title": "ChangeViewMessageEnums.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\EventAggregator\\ChangeViewMessageEnums.cs",
+              "RelativeDocumentMoniker": "Revit.Common\\src\\EventAggregator\\ChangeViewMessageEnums.cs",
+              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\EventAggregator\\ChangeViewMessageEnums.cs",
+              "RelativeToolTip": "Revit.Common\\src\\EventAggregator\\ChangeViewMessageEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:01:30.826Z",
               "EditorCaption": ""
             },
             {
@@ -114,6 +92,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LaunchMainDockablePaneAssistantView.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\Commands\\LaunchMainDockablePaneAssistantView.cs",
+              "RelativeDocumentMoniker": "Revit.Common\\src\\Commands\\LaunchMainDockablePaneAssistantView.cs",
+              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\Commands\\LaunchMainDockablePaneAssistantView.cs",
+              "RelativeToolTip": "Revit.Common\\src\\Commands\\LaunchMainDockablePaneAssistantView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:01:17.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LaunchMainDockablePaneContactView.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\Commands\\LaunchMainDockablePaneContactView.cs",
+              "RelativeDocumentMoniker": "Revit.Common\\src\\Commands\\LaunchMainDockablePaneContactView.cs",
+              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\Commands\\LaunchMainDockablePaneContactView.cs",
+              "RelativeToolTip": "Revit.Common\\src\\Commands\\LaunchMainDockablePaneContactView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:01:15.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LaunchMainDockablePaneHomeView.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\Commands\\LaunchMainDockablePaneHomeView.cs",
+              "RelativeDocumentMoniker": "Revit.Common\\src\\Commands\\LaunchMainDockablePaneHomeView.cs",
+              "ToolTip": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\Revit.Common\\src\\Commands\\LaunchMainDockablePaneHomeView.cs",
+              "RelativeToolTip": "Revit.Common\\src\\Commands\\LaunchMainDockablePaneHomeView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:01:13.61Z",
+              "EditorCaption": ""
             }
           ]
         },
