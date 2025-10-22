@@ -10,6 +10,7 @@
         "dependencies": {
           "DynamoVisualProgramming.DynamoServices": "3.6.1.9956",
           "Newtonsoft.Json": "13.0.3",
+          "RevitApiDotnet8": "1.0.0",
           "Revit_All_Main_Versions_API_x64": "2026.0.0"
         },
         "runtime": {
@@ -66,6 +67,19 @@
           "System.Collections.Immutable": "8.0.0",
           "System.Reflection.Metadata": "8.0.0"
         }
+      },
+      "RevitApiDotnet8/1.0.0": {
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "3.6.1.9956",
+          "Newtonsoft.Json": "13.0.3",
+          "Revit_All_Main_Versions_API_x64": "2026.0.0"
+        },
+        "runtime": {
+          "RevitApiDotnet8.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -116,6 +130,11 @@
       "sha512": "sha512-SZxrQ4sQYnIcdwiO3G/lHZopbPYQ2lW0ioT4JezgccWUrKaKbHLJbAGZaDfkYjWcta1pWssAo3MOXLsR0ie4tQ==",
       "path": "system.reflection.metadataloadcontext/8.0.0",
       "hashPath": "system.reflection.metadataloadcontext.8.0.0.nupkg.sha512"
+    },
+    "RevitApiDotnet8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

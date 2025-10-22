@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamoVisualProgramming.DynamoServices" Version="3.6.1.9956" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2026.0.0" />
+  </ItemGroup>
+
+  <Import Project="..\RevitApiActions.Common\RevitApiActions.Common.projitems" Label="Shared" />
+
+</Project>

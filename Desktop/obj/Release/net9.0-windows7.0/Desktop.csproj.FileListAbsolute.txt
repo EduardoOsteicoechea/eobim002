@@ -41,3 +41,5 @@ C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windo
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\ref\Eduardoos.RevitApi.dll
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\AIAssistantPage.g.cs
 C:\Users\eduar\Documents\work\internal\eobim002\Desktop\obj\Release\net9.0-windows7.0\AIAssistantPage.baml
+C:\Users\eduar\Documents\work\internal\eobim002\Desktop\bin\Release\net9.0-windows7.0\RevitApiDotnet8.dll
+C:\Users\eduar\Documents\work\internal\eobim002\Desktop\bin\Release\net9.0-windows7.0\RevitApiDotnet8.pdb

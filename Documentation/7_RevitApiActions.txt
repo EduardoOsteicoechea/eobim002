@@ -1,0 +1,65 @@
+dotnet new classlib -n RevitApiActions -f netstandard2.0;
+Remove-Item -Path "RevitApiActions.csproj";
+Remove-Item -Path "Class1.cs";
+New-Item -Path "RevitApiActions.shproj";
+New-Item -Path "RevitApiActions.projitems";
+
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e11fb2b1-2af0-46cc-9302-9b3579a48115</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Common</Import_RootNamespace>
+  </PropertyGroup>
+</Project>
+
+
+
+
+
+
+dotnet new classlib -n RevitApiDotnet48 -f netstandard2.0;
+
+cd RevitApiDotnet48;
+
+Remove-Item -Path "Class1.cs";
+
+<PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+</PropertyGroup>
+
+dotnet add package Revit_All_Main_Versions_API_x64 --version 2023.0.0;
+
+dotnet add package DynamoVisualProgramming.DynamoServices --version 3.6.1.9956;
+
+dotnet add package Newtonsoft.Json --version 13.0.3;
+
+<Import Project="..\RevitApiActions\RevitApiActions.projitems" Label="Shared" />
+
+
+
+
+dotnet new classlib -n RevitApiDotnet8 -f net8.0;
+cd RevitApiDotnet8;
+Remove-Item -Path "Class1.cs";
+dotnet add package Revit_All_Main_Versions_API_x64 --version 2026.0.0;
+dotnet add package DynamoVisualProgramming.DynamoServices --version 3.6.1.9956;
+dotnet add package Newtonsoft.Json --version 13.0.3;
+
+
+
+
+
+
+dotnet sln add RevitApiDotnet48/RevitApiDotnet48.csproj;
+dotnet sln add RevitApiDotnet8/RevitApiDotnet8.csproj;
+
+
+
+
+
+
+
+

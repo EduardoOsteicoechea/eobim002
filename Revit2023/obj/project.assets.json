@@ -185,6 +185,20 @@
             "related": ".xml"
           }
         }
+      },
+      "RevitApiDotnet48/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "3.6.1.9956",
+          "Revit_All_Main_Versions_API_x64": "2023.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RevitApiDotnet48.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RevitApiDotnet48.dll": {}
+        }
       }
     }
   },
@@ -472,12 +486,18 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "RevitApiDotnet48/1.0.0": {
+      "type": "project",
+      "path": "../RevitApiDotnet48/RevitApiDotnet48.csproj",
+      "msbuildProject": "../RevitApiDotnet48/RevitApiDotnet48.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "DynamoVisualProgramming.DynamoServices >= 3.6.1.9956",
       "Newtonsoft.Json >= 13.0.3",
+      "RevitApiDotnet48 >= 1.0.0",
       "Revit_All_Main_Versions_API_x64 >= 2023.0.0"
     ]
   },
@@ -514,7 +534,11 @@
       "frameworks": {
         "net48": {
           "targetAlias": "net48",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\RevitApiDotnet48\\RevitApiDotnet48.csproj": {
+              "projectPath": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\RevitApiDotnet48\\RevitApiDotnet48.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

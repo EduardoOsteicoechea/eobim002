@@ -108,6 +108,24 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "RevitApiDotnet8/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "3.6.1.9956",
+          "Newtonsoft.Json": "13.0.3",
+          "Revit_All_Main_Versions_API_x64": "2026.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RevitApiDotnet8.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RevitApiDotnet8.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -271,12 +289,18 @@
         "system.reflection.metadataloadcontext.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "RevitApiDotnet8/1.0.0": {
+      "type": "project",
+      "path": "../RevitApiDotnet8/RevitApiDotnet8.csproj",
+      "msbuildProject": "../RevitApiDotnet8/RevitApiDotnet8.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "DynamoVisualProgramming.DynamoServices >= 3.6.1.9956",
       "Newtonsoft.Json >= 13.0.3",
+      "RevitApiDotnet8 >= 1.0.0",
       "Revit_All_Main_Versions_API_x64 >= 2026.0.0"
     ]
   },
@@ -313,7 +337,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\RevitApiDotnet8\\RevitApiDotnet8.csproj": {
+              "projectPath": "C:\\Users\\eduar\\Documents\\work\\internal\\eobim002\\RevitApiDotnet8\\RevitApiDotnet8.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -14,5 +14,9 @@
   </ItemGroup>
 
   <Import Project="..\Revit.Common\Revit.Common.projitems" Label="Shared" />
+  
+  <ItemGroup>
+    <ProjectReference Include="..\RevitApiDotnet48\RevitApiDotnet48.csproj" />
+  </ItemGroup>
 
 </Project>

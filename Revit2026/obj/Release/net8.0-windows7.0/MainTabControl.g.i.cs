@@ -53,7 +53,7 @@ namespace Eduardoos.RevitApi {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Eduardoos.RevitApi;component/src/uicomponents/maintabcontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Eduardoos.RevitApi;V1.0.0.0;component/src/uicomponents/maintabcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Revit.Common\src\UIComponents\MainTabControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

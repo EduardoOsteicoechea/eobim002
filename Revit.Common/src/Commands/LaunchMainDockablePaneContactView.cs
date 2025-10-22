@@ -3,6 +3,7 @@
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
+using Eduardoos.RevitApiActions;
 
 namespace Eduardoos.RevitApi
 {
@@ -14,6 +15,8 @@ namespace Eduardoos.RevitApi
 		{
 			try
 			{
+                Greetings.Simple();
+                
 				EventAggregator.Instance.Publish(new ChangeViewMessage
 				{
 					TargetViewModelType = typeof(string),
@@ -23,6 +26,7 @@ namespace Eduardoos.RevitApi
 				});
 
 				GlobalVariables.MainDockablePane = commandData.Application.GetDockablePane(GlobalVariables.DockablePaneId);
+
 				GlobalVariables.MainDockablePane.Show();
 
 				return Autodesk.Revit.UI.Result.Succeeded;
@@ -30,6 +34,7 @@ namespace Eduardoos.RevitApi
 			catch (System.Exception ex)
 			{
 				System.Windows.MessageBox.Show($"{ex.Message}\n\n{ex.StackTrace}");
+
 				return Autodesk.Revit.UI.Result.Failed;
 			}
 		}
